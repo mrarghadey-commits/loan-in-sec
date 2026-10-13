@@ -1,0 +1,33 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.whl
+
+# Credentials and local user data
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite*
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+
+# Flutter generated files
+.dart_tool/
+build/
+.flutter-plugins*
+**/ephemeral/
+**/local.properties
+**/Generated.xcconfig
+**/flutter_export_environment.sh
+
+# Downloaded and generated datasets
+backend/training/dataset.zip
+backend/training/synthetic_inr.csv
+kaggle-notebook-response.json
