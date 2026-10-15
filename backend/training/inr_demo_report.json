@@ -1,0 +1,13 @@
+{
+  "source": "Synthetic INR demo; not real Indian bank data",
+  "seed": 42,
+  "train_rows": 15000,
+  "test_rows": 5000,
+  "target": "synthetic_demo_approval",
+  "label_rule": "Bernoulli(sigmoid(1.5 + 1.2*credit_scaled + 0.35*log_income - 8*(total_dti-0.4)))",
+  "accuracy_on_synthetic_holdout": 0.9122,
+  "auc_on_synthetic_holdout": 0.9662651107749,
+  "brier_on_synthetic_holdout": 0.06492720734326989,
+  "mean_absolute_error_against_generator": 0.0029914414338074423,
+  "limitations": "Only measures reproduction of invented labels. No real-world validation or fairness claim. Gender, marital status, education and employment are not model features."
+}
