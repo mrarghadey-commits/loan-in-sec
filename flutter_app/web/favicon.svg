@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Loan in Sec</title>
+  <rect width="64" height="64" rx="14" fill="#AC302B"/>
+  <path d="M16 16h7v25h16v7H16z" fill="white"/>
+  <path d="M40 14 30 32h9l-5 16 17-23H41l6-11z" fill="#FFD49B"/>
+</svg>
